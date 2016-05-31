@@ -1,5 +1,5 @@
 # Start with cuDNN base image
-FROM 7.5-cudnn5-devel-ubuntu14.04
+FROM nvidia/7.5-cudnn5-devel-ubuntu14.04
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
