@@ -3,6 +3,6 @@ device=gpu
 floatX=float32
 openmp = True
 [lib]
-cnmem=1
+cnmem=.8
 [nvcc]
 fastmath=True
