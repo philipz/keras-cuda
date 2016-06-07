@@ -27,7 +27,7 @@ RUN curl -qsSLkO \
 
 ENV PATH=/root/miniconda2/bin:$PATH
 
-RUN conda create --name keras python=3
+RUN conda create --name keras python=2.7
 
 RUN source activate keras \
   && conda install -y \
